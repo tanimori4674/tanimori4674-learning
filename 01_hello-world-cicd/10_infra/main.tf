@@ -10,8 +10,8 @@ terraform {
     }
   }
   backend "s3" {
-    bucket  = "{YOUR-S3-BUCKET-NAME}"
-    key     = "{YOUR-S3-BUCKET-KEY}"
+    bucket  = "tanimori-kimika-learning"
+    key     = "01_hello-world-cicd"
     region  = "ap-northeast-1"
     profile = "terraform"
   }
